@@ -7,18 +7,88 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
-<script type="text/javascript" defer src="script.js">
-
-
-</script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+<link rel="stylesheet" href="style.css">
+<script type="text/javascript" defer src="script.js"></script>
 
 <body>
-    <div class="contaner">
-        <div id="new"></div>
+    <div class="box out">
+        <h2>Задача 1</h2> Напишите функцию для вывода элементов массива в элемент &lt;p id=”new”&gt;&lt;/p&gt;
+        <div class="box">
+            <div id="new1"></div>
+        </div>
     </div>
 
-    <div class="container">
-        <div id="new1"></div>
+    <div class="box out">
+        <h2>Задача 2</h2>
+        Добавьте в предыдущую программу два элемента input, в которые можно ввести индекс массива и значение. По нажатию “ОК” - массив выводится.
+        <div class="box">
+            <div><label>id: <br><input type="text" id="task2_id" value="0"></label></div>
+            <div><label>value: <br><input type="text" id="task2_value" value="0"></label></div>
+            <div><button id="task2_ok">ok</button> </div>
+            <div id="new2"></div>
+        </div>
+    </div>
+    <div class="box out">
+        <h2>Задача 3</h2>
+        Добавьте кнопку pop реализующую метод pop() для введенного выше массива.
+        <div class="box">
+            <div><label>id: <br><input type="text" id="task3_id" value="0"></label></div>
+            <div><label>value: <br><input type="text" id="task3_value" value="0"></label></div>
+            <div><button id="task3_ok">OK</button></div>
+            <div><button id="task3_pop">Pop</button></div>
+            <div id="new3"></div>
+            <div id="popped3"></div>
+        </div>
+    </div>
+    <div class="box out">
+        <h2>Задача 4</h2>
+        Добавьте кнопку shift реализующую метод shift() для введенного выше массива.
+        <div class="box">
+            <div><label>id: <br><input type="text" id="task4_id" value="0"></label></div>
+            <div><label>value: <br><input type="text" id="task4_value" value="0"></label></div>
+            <div><button id="task4_ok">OK</button></div>
+            <div><button id="task4_pop">Pop</button></div>
+            <div><button id="task4_shift">Shift</button></div>
+            <div id="shift4"></div>
+            <div id="new4"></div>
+            <div id="popped4"></div>
+        </div>
+    </div>
+    <div class="box out">
+        <h2>Задача 5</h2>
+        Добавьте кнопку push реализующую метод push() для введенного выше массива. Данные для записи необходимо считывать из input.
+        <div class="box">
+            <div><label>id: <br><input type="text" id="task5_id" value="0"></label></div>
+            <div><label>value: <br><input type="text" id="task5_value" value="0"></label></div>
+            <div><button id="task5_ok">OK</button></div>
+            <div><button id="task5_shift">Shift</button></div>
+            <div><button id="task5_pop">Pop</button></div>
+            <div><button id="task5_push">Push</button></div>
+            <div id="shift5"></div>
+            <div id="new5"></div>
+            <div id="push5"></div>
+            <div id="popped5"></div>
+        </div>
+    </div>
+    <div class="box out">
+        <h2>Задача 6</h2>
+        Добавьте кнопку push реализующую метод unshift() для введенного выше массива. Данные для записи необходимо считывать из input.
+        <div class="box">
+            <div><label>id: <br><input type="text" id="task6_id" value="0"></label></div>
+            <div><label>value: <br><input type="text" id="task6_value" value="0"></label></div>
+            <div><button id="task6_ok">OK</button></div>
+            <div><button id="task6_shift">Shift</button></div>
+            <div><button id="task6_unshift">UnShift</button></div>
+            <div><button id="task6_pop">Pop</button></div>
+            <div><button id="task6_push">Push</button></div>
+
+            <div id="shift6"></div>
+            <div id="unshift6"></div>
+            <div id="new6"></div>
+            <div id="push6"></div>
+            <div id="popped6"></div>
+        </div>
     </div>
 </body>
 

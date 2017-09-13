@@ -9,7 +9,7 @@
 
     function pushRand(arr, n) {
         if (arr.length < n) {
-            arr.push(Math.floor(Math.random() * 10));
+            arr.push(Math.floor(Math.random() * 100));
             pushRand(arr, n);
         } else {
             return arr;
@@ -27,5 +27,5 @@
         return result;
     }
 
-    document.getElementById('new').innerHTML = printArr(arr);
+    document.getElementById('new1').innerHTML = printArr(arr);
 }());
