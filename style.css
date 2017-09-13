@@ -7,5 +7,11 @@
 }
 
 .out {
-    width: 230px;
+    width: 300px;
+}
+
+button {
+    color: black;
+    background-color: silver;
+    width: 80%;
 }
